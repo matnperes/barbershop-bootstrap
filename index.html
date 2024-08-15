@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Barbearia Joshua</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-dark text-light">
+
+  <!-- Navbar -->
+  <nav class="navbar bg-warning fw-bold border-bottom border-body navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Barbearia Joshua</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#servicos">Serviços</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#depoimentos">Depoimentos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#galeria">Galeria</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contato">Contato</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+          <button class="btn btn-dark" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Carousel -->
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="img-fluid " src="./assets/carrosel-1.jpg" alt="Barbearia Hermanos Santa Cecília">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Estilo e Tradição</h5>
+          <p>Experiência única de corte e barba para o homem moderno.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="img-fluid" src="./assets/carrosel-2.jpg" alt="Barbearia Adailton">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Ambiente Acolhedor</h5>
+          <p>Espaço pensado para o seu conforto e bem-estar.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="img-fluid" src="./assets/carrosel-3.jpg" alt="Barbearia por Assinatura Belo Horizonte">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Profissionais Especializados</h5>
+          <p>Equipe treinada para garantir o melhor resultado.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Próximo</span>
+    </button>
+  </div>
+
+  <!-- Services Section -->
+  <section id='servicos' class="services-section py-5">
+    <div class="container">
+      <i class="bi bi-scissors"></i>
+      <h2 class="text-center mb-5">Nossos Serviços</h2>
+      <div class="row text-center">
+        <div class="col-md-4">
+          <h4>Corte de Cabelo</h4>
+          <p>Cortes clássicos e modernos para todos os estilos.</p>
+        </div>
+        <div class="col-md-4">
+          <i class="bi bi-beard"></i>
+          <h4>Barba</h4>
+          <p>Modelagem e cuidados especiais para a sua barba.</p>
+        </div>
+        <div class="col-md-4">
+          <i class="bi bi-egg-fried"></i>
+          <h4>Tratamentos</h4>
+          <p>Hidratação e tratamentos capilares personalizados.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="depoimentos" class="testimonials-section bg-warning text-dark py-5">
+    <div class="container">
+      <h2 class="text-center mb-5">Depoimentos</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <blockquote class="blockquote text-center">
+            <p>"Ambiente incrível e atendimento impecável! A melhor barbearia que já frequentei."</p>
+          </blockquote>
+          <figcaption class="blockquote-footer text-center">Carlos Silva</figcaption>
+        </div>
+        <div class="col-md-4">
+          <blockquote class="blockquote text-center">
+            <p>"Os barbeiros são verdadeiros artistas. Sempre saio satisfeito com o corte."</p>
+          </blockquote>
+          <figcaption class="blockquote-footer text-center">João Oliveira</figcaption>
+        </div>
+        <div class="col-md-4">
+          <blockquote class="blockquote text-center">
+            <p>"Adoro o ambiente e o profissionalismo da equipe. Recomendo a todos!"</p>
+          </blockquote>
+          <figcaption class="blockquote-footer text-center">Ricardo Mendes</figcaption>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id='galeria' class="gallery-section py-5">
+    <div class="container">
+      <h2 class="text-center mb-5">Galeria</h2>
+      <div class="row d-flex text-center g-3">
+        <div class="col-md-4">
+          <img src="./assets/barbearia-1.jpg" alt="Galeria 1" class="img-fluid img-thumbnail d-none d-md-block">
+          <img src="./assets/barbearia-1-sm.jpg" alt="Galeria 1" class="img-fluid img-thumbnail d-md-none">
+        </div>
+        <div class="col-md-4">
+          <img src="./assets/barbearia-2.jpg" alt="Galeria 2" class="img-fluid img-thumbnail d-none d-md-block">
+          <img src="./assets/barbearia-2-sm.jpg" alt="Galeria 2" class="img-fluid img-thumbnail d-md-none">
+        </div>
+        <div class="col-md-4">
+          <img src="./assets/barbearia-3.jpg" alt="Galeria 3" class="img-fluid img-thumbnail d-none d-md-block">
+          <img src="./assets/barbearia-3-sm.jpg" alt="Galeria 3" class="img-fluid img-thumbnail d-md-none">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta-section text-center bg-warning py-5 text-dark">
+    <div class="container">
+      <h2>Agende seu Horário Agora!</h2>
+      <p class="mb-4">Garanta seu horário com nossos profissionais e desfrute de uma experiência única.</p>
+      <a href="#" class="btn btn-dark btn-lg">Agendar</a>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer id="contato" class="footer-section text-center text-light py-4">
+    <div class="container">
+      <p>&copy; 2024 Barbearia Joshua. Todos os direitos reservados.</p>
+      <p>Rua Exemplo, 123 - Centro - Cidade/Estado</p>
+      <p><a href="#" class="text-warning">Facebook</a> | <a href="#" class="text-warning">Instagram</a> | <a href="#" class="text-warning">WhatsApp</a></p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
